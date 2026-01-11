@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Dinâmica - PL nº 2900/2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-link.active {
+            background-color: #1A1F51;
+            color: white;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Cabeçalho Fixo -->
+    <header class="bg-[#1A1F51] shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl md:text-3xl font-bold text-white">Análise do Projeto de Lei nº 2900/2025</h1>
+                <p class="text-[#AFD8BD] mt-1 hidden sm:block">Obrigatoriedade de cadeiras de rodas em escolas no Rio de Janeiro.</p>
+            </div>
+            <a href="../index.html" class="bg-[#4EB969] hover:bg-[#FFCA2C] hover:text-[#1A1F51] text-white font-bold py-2 px-4 rounded-lg transition duration-300 flex items-center whitespace-nowrap">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-0 sm:mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <span class="hidden sm:inline">Página Inicial</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-6 py-8 flex flex-col lg:flex-row gap-8">
+        
+        <!-- Navegação Lateral -->
+        <aside class="lg:w-1/4">
+            <div class="sticky top-28">
+                <h2 class="text-lg font-bold mb-4 border-b pb-2 text-[#1A1F51]">Navegação</h2>
+                <nav id="nav-menu" class="flex flex-col space-y-2">
+                    <a href="#resumo" class="nav-link px-4 py-2 rounded-md transition-colors duration-300 hover:bg-[#AFD8BD] hover:text-[#1A1F51]">Resumo Executivo</a>
+                    <a href="#analise" class="nav-link px-4 py-2 rounded-md transition-colors duration-300 hover:bg-[#AFD8BD] hover:text-[#1A1F51]">Análise do PL</a>
+                    <a href="#positivos" class="nav-link px-4 py-2 rounded-md transition-colors duration-300 hover:bg-[#AFD8BD] hover:text-[#1A1F51]">Pontos Positivos</a>
+                    <a href="#criticos" class="nav-link px-4 py-2 rounded-md transition-colors duration-300 hover:bg-[#AFD8BD] hover:text-[#1A1F51]">Pontos Críticos</a>
+                    <a href="#recomendacao" class="nav-link px-4 py-2 rounded-md transition-colors duration-300 hover:bg-[#AFD8BD] hover:text-[#1A1F51]">Recomendação</a>
+                    <a href="#desafios" class="nav-link px-4 py-2 rounded-md transition-colors duration-300 hover:bg-[#AFD8BD] hover:text-[#1A1F51]">Bloqueios e Desafios</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Conteúdo Principal do Relatório -->
+        <main class="lg:w-3/4 space-y-12">
+
+            <!-- Seção: Resumo Executivo -->
+            <section id="resumo" class="bg-white p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4 text-[#1A1F51] border-l-4 border-[#1A1F51] pl-4">Resumo Executivo</h2>
+                <p class="text-lg">Análise do <strong>Projeto de Lei nº 2900/2025</strong>, de autoria do Vereador Salvino Oliveira. A proposta visa tornar obrigatória a disponibilização de cadeiras de rodas em todas as escolas públicas e privadas do Município do Rio de Janeiro. O projeto segue em tramitação ordinária e já foi despachado para as comissões pertinentes para análise.</p>
+            </section>
+
+            <!-- Seção: Análise do PL -->
+            <section id="analise" class="bg-white p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-6 text-[#1A1F51] border-l-4 border-[#1A1F51] pl-4">Análise do Projeto de Lei</h2>
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-gray-100 p-4 rounded-lg"><strong>Autor:</strong> Vereador Salvino Oliveira</div>
+                    <div class="bg-gray-100 p-4 rounded-lg"><strong>Status:</strong> Tramitação ordinária</div>
+                </div>
+                 <div class="bg-[#AFD8BD] text-[#1A1F51] p-4 rounded-lg border border-[#4EB969]">
+                    <strong>Atualização Importante:</strong> O PL recebeu parecer favorável da Comissão Permanente de Educação da Câmara Municipal em 25/09/2025.
+                </div>
+                <h3 class="text-xl font-semibold mt-6 mb-3">Síntese da Proposta</h3>
+                <p class="text-lg">O projeto obriga as instituições de ensino a disponibilizarem cadeiras de rodas em locais de fácil acesso. Para escolas privadas, estabelece um processo de notificação com prazo de 30 dias para adequação, seguido pela aplicação de multa de <strong>R$ 10.000,00</strong>, valor que dobra em caso de reincidência.</p>
+            </section>
+            
+            <!-- Seção: Pontos Positivos -->
+            <section id="positivos" class="bg-white p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4 text-[#4EB969] border-l-4 border-[#4EB969] pl-4">Pontos Positivos</h2>
+                <ul class="space-y-4 text-lg">
+                    <li class="flex items-start"><span class="text-[#4EB969] mr-3 mt-1 font-bold">✔</span><span><strong>Inclusão e Acessibilidade:</strong> A medida reforça o compromisso com um ambiente educacional inclusivo, garantindo melhores condições de deslocamento para pessoas com deficiência ou mobilidade reduzida.</span></li>
+                    <li class="flex items-start"><span class="text-[#4EB969] mr-3 mt-1 font-bold">✔</span><span><strong>Amparo Legal:</strong> A proposta está alinhada com o Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015), o que confere forte legitimidade jurídica à iniciativa.</span></li>
+                    <li class="flex items-start"><span class="text-[#4EB969] mr-3 mt-1 font-bold">✔</span><span><strong>Mecanismos de Efetividade:</strong> A previsão de notificação, prazo e multa para instituições privadas cria um mecanismo claro de responsabilização e incentiva o cumprimento da norma.</span></li>
+                </ul>
+            </section>
+            
+            <!-- Seção: Pontos Críticos -->
+            <section id="criticos" class="bg-white p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4 text-[#FFCA2C] border-l-4 border-[#FFCA2C] pl-4">Pontos Críticos e de Atenção</h2>
+                 <ul class="space-y-4 text-lg">
+                    <li class="flex items-start"><span class="text-[#FFCA2C] mr-3 mt-1 font-bold">✖</span><span><strong>Falta de Proporcionalidade:</strong> O texto não especifica a quantidade mínima de cadeiras por escola nem estabelece critérios proporcionais ao número de alunos, o que pode tornar a medida ineficaz em escolas de grande porte.</span></li>
+                    <li class="flex items-start"><span class="text-[#FFCA2C] mr-3 mt-1 font-bold">✖</span><span><strong>Órgão Fiscalizador Indefinido:</strong> O projeto não determina qual órgão será responsável pela fiscalização, gerando insegurança jurídica e dificultando a implementação prática da lei.</span></li>
+                    <li class="flex items-start"><span class="text-[#FFCA2C] mr-3 mt-1 font-bold">✖</span><span><strong>Aplicabilidade da Multa:</strong> A multa de R$ 10.000,00 pode ser excessiva para escolas pequenas e, ao mesmo tempo, irrisória para grandes instituições, carecendo de escalonamento.</span></li>
+                    <li class="flex items-start"><span class="text-[#FFCA2C] mr-3 mt-1 font-bold">✖</span><span><strong>Impacto Orçamentário:</strong> Não há um detalhamento do impacto financeiro, incluindo custos de aquisição, manutenção e substituição dos equipamentos.</span></li>
+                </ul>
+            </section>
+
+            <!-- Seção: Recomendação -->
+            <section id="recomendacao" class="bg-white p-8 rounded-xl shadow-lg">
+                 <h2 class="text-2xl font-bold mb-4 text-[#1A1F51] border-l-4 border-[#1A1F51] pl-4">Recomendação Preliminar</h2>
+                <p class="text-lg mb-4">Recomenda-se a elaboração de um parecer técnico aprofundado para sugerir emendas ao projeto, focando em quatro pontos principais:</p>
+                <ol class="list-decimal list-inside space-y-3 text-lg">
+                    <li>Definir critérios objetivos para a quantidade de cadeiras de rodas, com base no porte da escola.</li>
+                    <li>Indicar expressamente o órgão fiscalizador responsável por verificar o cumprimento da lei.</li>
+                    <li>Analisar a proporcionalidade da multa, talvez criando faixas de valor diferentes.</li>
+                    <li>Detalhar o impacto orçamentário, incluindo custos de manutenção e a fonte dos recursos.</li>
+                </ol>
+            </section>
+
+            <!-- Seção: Bloqueios e Desafios -->
+            <section id="desafios" class="bg-white p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4 text-gray-700 border-l-4 border-gray-400 pl-4">Bloqueios e Desafios</h2>
+                <p class="text-lg">A análise do projeto ocorreu sem dificuldades. O texto legislativo é conciso, o que facilitou a identificação dos pontos de destaque. Todas as informações sobre a tramitação foram encontradas de forma transparente no site da Câmara Municipal do Rio de Janeiro.</p>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-[#1A1F51] mt-12">
+        <div class="container mx-auto px-6 py-4 text-center text-[#AFD8BD]">
+            <p>&copy; 2025 Nexo Governamental XI de Agosto. Todos os Direitos Reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('#nav-menu a');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href').substring(1) === entry.target.id) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, { rootMargin: '-30% 0px -70% 0px', threshold: 0 });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+
+</body>
+</html>
